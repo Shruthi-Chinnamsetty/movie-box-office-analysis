@@ -53,9 +53,9 @@ Run the scripts in the following order from the project root directory:
    
 ## Outputs
 
-Cleaned Data: data/cleaned_movies_data.csv
-Visualisations: Scatterplot and boxplot of earnings over years in results/visualizations/
-Model Results: Mean Squared Error and R² Score in results/model_output/model_performance.txt
+- Cleaned Data: data/cleaned_movies_data.csv
+- Visualisations: Scatterplot and boxplot of earnings over years in results/visualizations/
+- Model Results: Mean Squared Error and R² Score in results/model_output/model_performance.txt
 
 ## Project Structure
 
@@ -79,5 +79,5 @@ movie-box-office-analysis/
 
 ## Requirements
 
-Python 3.10 or 3.11 (3.13 may have compatibility issues)
-Libraries listed in requirements.txt
+- Python 3.10 or 3.11 (3.13 may have compatibility issues)
+- Libraries listed in requirements.txt
