@@ -2,6 +2,10 @@
 movie_analysis_env/
 .venv/
 
+# Dataset Files
+data/
+*.csv
+
 # Output Files
 results/
 
