@@ -38,14 +38,12 @@ Run the scripts in the following order from the project root directory:
    Outputs plots to results/visualisations/.
     ```bash
     python scripts\exploratory_analysis.py
-
     
 3. **Regression Model:**
    Builds a linear regression model to predict Worldwide earnings using year.
    Outputs performance metrics to results/model_output/model_performance.txt.
     ```bash
     python scripts\regression_model.py
-    
    
 ## Outputs
 
