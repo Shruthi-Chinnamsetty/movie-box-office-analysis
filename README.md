@@ -8,7 +8,9 @@ The dataset used is sourced from [Kaggle: Movies Box Office Collection Data 2000
 
 ## Installation
 1. **Clone or Download**: If using Git, clone this repository. Otherwise, download the project files.
+
 2. **Set Up Virtual Environment** (Recommended):
+
    ```bash
    python -m venv movie_analysis_env
    
@@ -19,6 +21,7 @@ The dataset used is sourced from [Kaggle: Movies Box Office Collection Data 2000
    source movie_analysis_env/bin/activate  # On macOS/Linux
 4. **Install Dependencies**
     The requirements.txt includes libraries like pandas, numpy, matplotlib, seaborn, and scikit-learn.
+
     ```bash
     pip install -r requirements.txt
    
@@ -28,20 +31,23 @@ The dataset used is sourced from [Kaggle: Movies Box Office Collection Data 2000
 Run the scripts in the following order from the project root directory:
 
 1. **Data Cleaning:**
-   Cleans the dataset by handling missing values and formatting numbers.
-   Outputs data/cleaned_movies_data.csv.
+   - Cleans the dataset by handling missing values and formatting numbers.
+   - Outputs data/cleaned_movies_data.csv.
+
     ```bash
     python scripts\data_cleaning.py
 
 2. **Exploratory Analysis:**
-   Generates visualizations of Worldwide earnings over year.
-   Outputs plots to results/visualisations/.
+   - Generates visualizations of Worldwide earnings over year.
+   - Outputs plots to results/visualisations/.
+
     ```bash
     python scripts\exploratory_analysis.py
     
 3. **Regression Model:**
-   Builds a linear regression model to predict Worldwide earnings using year.
-   Outputs performance metrics to results/model_output/model_performance.txt.
+   - Builds a linear regression model to predict Worldwide earnings using year.
+   - Outputs performance metrics to results/model_output/model_performance.txt.
+
     ```bash
     python scripts\regression_model.py
    
