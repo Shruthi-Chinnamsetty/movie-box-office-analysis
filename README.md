@@ -59,18 +59,18 @@ Model Results: Mean Squared Error and R² Score in results/model_output/model_pe
 
 movie-box-office-analysis/
 │
-├── data/                      # Dataset files (ignored by Git)
-├── scripts/                   # Python scripts for analysis
-│   ├── data_cleaning.py
-│   ├── exploratory_analysis.py
-│   └── regression_model.py
-├── results/                   # Output files (ignored by Git)
-│   ├── visualizations/
-│   └── model_output/
-├── movie_analysis_env/        # Virtual environment (ignored by Git)
-├── requirements.txt           # List of required libraries
-├── .gitignore                # Git ignore file
-└── README.md                 # Project documentation
+├── data/ # Dataset files (ignored by Git)
+├── scripts/ # Python scripts for analysis
+│ ├── data_cleaning.py
+│ ├── exploratory_analysis.py
+│ └── regression_model.py
+├── results/ # Output files (ignored by Git)
+│ ├── visualizations/
+│ └── model_output/
+├── movie_analysis_env/ # Virtual environment (ignored by Git)
+├── requirements.txt # List of required libraries
+├── .gitignore # Git ignore file
+└── README.md # Project documentation
 
 ## Requirements
 
