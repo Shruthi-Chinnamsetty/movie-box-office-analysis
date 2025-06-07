@@ -12,9 +12,10 @@ The dataset used is sourced from [Kaggle: Movies Box Office Collection Data 2000
 2. **Set Up Virtual Environment** (Recommended):
    ```bash
    python -m venv movie_analysis_env
-   movie_analysis_env\Scripts\activate  # On Windows
-   # or
-   source movie_analysis_env/bin/activate  # On macOS/Linux
+
+movie_analysis_env\Scripts\activate  # On Windows 
+# or
+source movie_analysis_env/bin/activate  # On macOS/Linux
 3. **Install Dependencies** 
     ```bash
     pip install -r requirements.txt
