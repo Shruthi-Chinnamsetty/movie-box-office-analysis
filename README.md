@@ -33,44 +33,42 @@ Run the scripts in the following order from the project root directory:
     ```bash
     python scripts\data_cleaning.py
 
-    
-3. **Exploratory Analysis:**
+2. **Exploratory Analysis:**
    Generates visualizations of Worldwide earnings over year.
    Outputs plots to results/visualisations/.
     ```bash
     python scripts\exploratory_analysis.py
 
     
-5. **Regression Model:**
+3. **Regression Model:**
    Builds a linear regression model to predict Worldwide earnings using year.
    Outputs performance metrics to results/model_output/model_performance.txt.
     ```bash
     python scripts\regression_model.py
     
-    
-
+   
 ## Outputs
 
 Cleaned Data: data/cleaned_movies_data.csv
-Visualizations: Scatterplot and boxplot of earnings over years in results/visualizations/
+Visualisations: Scatterplot and boxplot of earnings over years in results/visualizations/
 Model Results: Mean Squared Error and R² Score in results/model_output/model_performance.txt
 
 ## Project Structure
 
 movie-box-office-analysis/
 │
-├── data/ # Dataset files (ignored by Git)
-├── scripts/ # Python scripts for analysis
-│ ├── data_cleaning.py
-│ ├── exploratory_analysis.py
-│ └── regression_model.py
-├── results/ # Output files (ignored by Git)
-│ ├── visualizations/
-│ └── model_output/
-├── movie_analysis_env/ # Virtual environment (ignored by Git)
-├── requirements.txt # List of required libraries
-├── .gitignore # Git ignore file
-└── README.md # Project documentation
+├── data/                      # Dataset files (ignored by Git)
+├── scripts/                   # Python scripts for analysis
+│   ├── data_cleaning.py
+│   ├── exploratory_analysis.py
+│   └── regression_model.py
+├── results/                   # Output files (ignored by Git)
+│   ├── visualizations/
+│   └── model_output/
+├── movie_analysis_env/        # Virtual environment (ignored by Git)
+├── requirements.txt           # List of required libraries
+├── .gitignore                # Git ignore file
+└── README.md                 # Project documentation
 
 ## Requirements
 
