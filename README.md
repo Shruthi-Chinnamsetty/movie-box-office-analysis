@@ -55,6 +55,7 @@ Model Results: Mean Squared Error and R² Score in results/model_output/model_pe
 
 ## Project Structure
 
+```text
 movie-box-office-analysis/
 │
 ├── data/                      # Dataset files (ignored by Git)
@@ -67,8 +68,10 @@ movie-box-office-analysis/
 │   └── model_output/
 ├── movie_analysis_env/        # Virtual environment (ignored by Git)
 ├── requirements.txt           # List of required libraries
-├── .gitignore                # Git ignore file
-└── README.md                 # Project documentation
+├── .gitignore                 # Git ignore file
+└── README.md                  # Project documentation
+```
+
 
 ## Requirements
 
