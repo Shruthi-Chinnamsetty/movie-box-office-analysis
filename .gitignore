@@ -1,0 +1,28 @@
+# Virtual Environment
+movie_analysis_env/
+.venv/
+
+# Output Files
+results/
+
+# Python Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.log
+*.tmp
+temp/
+
+note.txt
