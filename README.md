@@ -7,7 +7,7 @@ The dataset used is sourced from [Kaggle: Movies Box Office Collection Data 2000
 
 
 ## Installation
-1. **Clone or Download**: If using Git, clone this repository. Otherwise, download the project files.
+1. **Clone or Download:** If using Git, clone this repository. Otherwise, download the project files.
 
 2. **Set Up Virtual Environment** (Recommended):
 
@@ -19,7 +19,7 @@ The dataset used is sourced from [Kaggle: Movies Box Office Collection Data 2000
    ```
    ```bash
    source movie_analysis_env/bin/activate  # On macOS/Linux
-4. **Install Dependencies**
+4. **Install Dependencies:**
     The requirements.txt includes libraries like pandas, numpy, matplotlib, seaborn, and scikit-learn.
 
     ```bash
