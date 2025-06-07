@@ -1,48 +1,53 @@
 # Movie Box Office Analysis
 
-This project analyses box office earnings of movies from 2010 to 2023 to explore trends over time. Due to the unavailability of `Budget` and `Genre` in the dataset, the analysis focuses on predicting and visualizing `Worldwide` earnings using `year` as a feature. It demonstrates core data analysis skills including data cleaning, visualization, and regression modeling using Python.
+This project analyses box office earnings of movies from 2010 to 2023 to explore trends over time. The analysis focuses on predicting and visualizing `Worldwide` earnings using `year` as a feature. It demonstrates core data analysis skills including data cleaning, visualisation, and regression modeling using Python.
 
 ## Dataset
 The dataset used is sourced from [Kaggle: Movies Box Office Collection Data 2000-2024](https://www.kaggle.com/datasets/parthdande/movies-box-office-collection-data-2000-2024). It includes columns like `Rank`, `Release Group`, `Worldwide` earnings, `Domestic` earnings, `Foreign` earnings, and `year`.
 
-**Note**: The original intent was to predict earnings based on `Budget` and `Genre`, but these columns are absent, so the analysis was adapted to use `year`.
 
 ## Installation
 1. **Clone or Download**: If using Git, clone this repository. Otherwise, download the project files.
 2. **Set Up Virtual Environment** (Recommended):
    ```bash
    python -m venv movie_analysis_env
-
-movie_analysis_env\Scripts\activate  # On Windows 
-# or
-source movie_analysis_env/bin/activate  # On macOS/Linux
-3. **Install Dependencies** 
+   
+3. ``` bash
+   movie_analysis_env\Scripts\activate  # On Windows
+   ```
+   ```bash
+   source movie_analysis_env/bin/activate  # On macOS/Linux
+4. **Install Dependencies**
+    # The requirements.txt includes libraries like pandas, numpy, matplotlib, seaborn, and scikit-learn.
     ```bash
     pip install -r requirements.txt
-    # The requirements.txt includes libraries like pandas, numpy, matplotlib, seaborn, and scikit-learn.
-4. **Place Dataset:** Download the dataset from the Kaggle link above and place the CSV file as data/movies_box_office_collection_data.csv.
+   
+5. **Place Dataset:** Download the dataset from the Kaggle link above and place the CSV file as data/movies_box_office_collection_data.csv.
 
 ## Usage
 Run the scripts in the following order from the project root directory:
 
 1. **Data Cleaning:**
+   Cleans the dataset by handling missing values and formatting numbers.
+   Outputs data/cleaned_movies_data.csv.
     ```bash
     python scripts\data_cleaning.py
 
-    Cleans the dataset by handling missing values and formatting numbers.
-    Outputs data/cleaned_movies_data.csv.
-2. **Exploratory Analysis:**
+    
+3. **Exploratory Analysis:**
+   Generates visualizations of Worldwide earnings over year.
+   Outputs plots to results/visualisations/.
     ```bash
     python scripts\exploratory_analysis.py
 
-    Generates visualizations of Worldwide earnings over year.
-    Outputs plots to results/visualizations/.
-3. **Regression Model:**
+    
+5. **Regression Model:**
+   Builds a linear regression model to predict Worldwide earnings using year.
+   Outputs performance metrics to results/model_output/model_performance.txt.
     ```bash
     python scripts\regression_model.py
     
-    Builds a linear regression model to predict Worldwide earnings using year.
-    Outputs performance metrics to results/model_output/model_performance.txt.
+    
 
 ## Outputs
 
