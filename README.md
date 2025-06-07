@@ -18,7 +18,7 @@ The dataset used is sourced from [Kaggle: Movies Box Office Collection Data 2000
    ```bash
    source movie_analysis_env/bin/activate  # On macOS/Linux
 4. **Install Dependencies**
-    # The requirements.txt includes libraries like pandas, numpy, matplotlib, seaborn, and scikit-learn.
+    The requirements.txt includes libraries like pandas, numpy, matplotlib, seaborn, and scikit-learn.
     ```bash
     pip install -r requirements.txt
    
