@@ -1,6 +1,6 @@
 # Movie Box Office Analysis
 
-This project analyses box office earnings of movies from 2010 to 2023 to explore trends over time. The analysis focuses on predicting and visualizing `Worldwide` earnings using `year` as a feature. It demonstrates core data analysis skills including data cleaning, visualisation, and regression modeling using Python.
+This project analyses box office earnings of movies from 2010 to 2023 to explore trends over time. The analysis focuses on predicting and visualising `Worldwide` earnings using `year` as a feature. It demonstrates core data analysis skills including data cleaning, visualisation, and regression modeling using Python.
 
 ## Dataset
 The dataset used is sourced from [Kaggle: Movies Box Office Collection Data 2000-2024](https://www.kaggle.com/datasets/parthdande/movies-box-office-collection-data-2000-2024). It includes columns like `Rank`, `Release Group`, `Worldwide` earnings, `Domestic` earnings, `Foreign` earnings, and `year`.
@@ -68,7 +68,7 @@ movie-box-office-analysis/
 │   ├── exploratory_analysis.py
 │   └── regression_model.py
 ├── results/                   # Output files (ignored by Git)
-│   ├── visualizations/
+│   ├── visualisations/
 │   └── model_output/
 ├── movie_analysis_env/        # Virtual environment (ignored by Git)
 ├── requirements.txt           # List of required libraries
